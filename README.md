@@ -1,4 +1,4 @@
-### ⚖️ Licensing & Terms of Use
+### Licensing & Terms of Use
 
 This repository contains **documentation and integration samples**. Please note that the **PON-Reader** binary and the **PON-DB Engine** are proprietary software and are not open-source.
 
@@ -7,7 +7,7 @@ This repository contains **documentation and integration samples**. Please note 
 
 ---
 
-### 🛡️ Intellectual Property & Security
+### Intellectual Property & Security
 
 The integrity and ownership of this technology are notarized on the **Bitcoin Blockchain**:
 *   **Block:** `942545`
