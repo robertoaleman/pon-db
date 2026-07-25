@@ -7,6 +7,22 @@ PON-Reader is a lightweight reader for .pon files and is free without limitation
 
 PON-Engine is a .pon file generator and is free in its community version, which allows you to generate .pon files with up to 1 million records, taking into account the JSON or JSONL file to be ingested.
 
+Example of use:
+
+You can test PON-Reader with the .pon file available at:
+
+https://huggingface.co/buckets/pondbengine/ponfiles
+
+https://huggingface.co/buckets/pondbengine/ponfiles/tree/masterkey_w2xuWpVD_2026-03-27.bin
+
+https://huggingface.co/buckets/pondbengine/ponfiles/tree/users_1m.json.pon
+
+The original dataset comes from:
+
+https://jsoneditoronline.org/indepth/datasets/json-file-example/
+
+You can compare both and compare the results.
+
 Example Test:
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
