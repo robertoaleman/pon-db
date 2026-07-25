@@ -55,32 +55,6 @@ Example of Use.
 
 -----------------------
 
-
-
-Sample ingest report:
-
-==========================================================
-        PON-DB GREEN COMPLIANCE REPORT (V8.4)
-==========================================================
-TIMESTAMP:      2026-07-25 08:09:48
-STATUS:         VERIFIED (GREEN)
-----------------------------------------------------------
-ORIGINAL SIZE:  37845960 bytes
-FINAL SIZE:     42546088 bytes
-COMPRESSION:    -12.42% reduction
-ROWS PROCESSED: 100000
-TIME ELAPSED:   2.650972 seconds
-THROUGHPUT:     37722.01 rows/sec
-----------------------------------------------------------
-ORIGINAL HASH:  CAPTURING...
-FINAL HASH:     SEALED_V8.5
-INTEGRITY:      MATHEMATICALLY SEALED
-----------------------------------------------------------
-LICENSE STATUS: PERMANENT / NO-LOCK-IN
-HARDWARE ID:    ACTIVE BINDING
-==========================================================
-
-
 Example Test:
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
