@@ -1,6 +1,11 @@
 ### Licensing & Terms of Use
 
-This repository contains **documentation and integration samples**. Please note that the **PON-Reader** binary and the **PON-DB Engine** are proprietary software and are not open-source.
+This repository contains **documentation and integration samples**. 
+Please note that the **PON-Reader** binary and the **PON-DB Engine** are proprietary software but these are free software programs, according to:
+
+PON-Reader is a lightweight reader for .pon files and is free without limitations.
+
+PON-Engine is a .pon file generator and is free in its community version, which allows you to generate .pon files with up to 1 million records, taking into account the JSON or JSONL file to be ingested.
 
 How to Use
 
