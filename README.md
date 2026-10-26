@@ -4,7 +4,7 @@
 <p align="center">
   <a href="https://pon-db.com">Website</a><br/><br/>
    <b>License: GNU Affero General Public License (AGPL-3.0-only) </b></br>
-   <b>Current version available: v8.5</b></br>
+   <b>Current version available: v8.4</b></br>
  
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S2Y6296BZ2) 
 
