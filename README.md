@@ -80,7 +80,7 @@ A `.pon` file is structured sequentially into logical blocks:
 
 ---
 
-## 2. Header Layout (`PonHeaderV8` — Exactly 128 Bytes)
+## 2. Header Layout (`PonHeaderV8` — 128 Bytes)
 The file begins with a strict 128-byte header . All numeric multi-byte values are stored in **little-endian** format.
 
 | Offset Range | Field Name | Type | Description |
