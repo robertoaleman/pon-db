@@ -149,7 +149,7 @@ When multiple records hash to the same index key, they are resolved via the coin
 
 ## License
 
-- **Code** (The kernel and its security-critical components, bootloader, userland and scripts): [GNU AGPL-3.0-only](LICENSE).
+- **Code**: [GNU AGPL-3.0-only](LICENSE).
 - **Documentation** (`docs/` and this README): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). You may share and adapt it with attribution, under the same license.
 Copyright (C) 2026 Roberto C. Alemán F.
 
