@@ -1,0 +1,33 @@
+[package]
+name = "pon-db-engine"
+version = "9.0.0-alpha.7"
+edition = "2021"
+rust-version = "1.75"
+authors = ["Roberto C. Aleman F."]
+description = "PON-DB Engine: a database engine encapsulated in a single, portable, encrypted binary format"
+license = "AGPL-3.0-only"
+repository = "https://github.com/robertoaleman/pon-db"
+readme = "README.md"
+
+[dependencies]
+aes-gcm = "0.10.3"
+chrono = "0.4"
+colored = "2.0"
+hex = "0.4"
+hkdf = "0.12"
+hmac = "0.12"
+rand = "0.8"
+serde_json = "1.0"
+sha2 = "0.10.8"
+zeroize = "1.7"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+
+# Las dependencias (AES, SHA, serde_json) optimizadas incluso en `cargo build` / `cargo test`;
+# el código propio sigue en modo depuración.
+[profile.dev.package."*"]
+opt-level = 3

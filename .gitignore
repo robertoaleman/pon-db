@@ -1,0 +1,7 @@
+/target/
+# Never commit key material or generated databases
+masterkey_*.bin
+masterkey.bin
+*.pon
+*.pon.tmp
+*.pon.log
