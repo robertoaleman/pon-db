@@ -3,7 +3,7 @@
   <b>Author : Roberto C. Alemán F.</b><br/><b>Zulia, Venezuela</b><br/><img src="https://flagcdn.com/ve.svg" alt="Flag of Venezuela" width="48">
 </p>
 <p align="center">
-  <a href="https://pon-db.com">Website</a><br/><br/>
+  <br/>
   <b>License: GNU Affero General Public License (AGPL-3.0-only)</b><br/>
   <b>Current version: 9.0.0-alpha.7 (file format V9, revision 4)</b><br/>
 
@@ -236,14 +236,10 @@ The table is `page_count` pages of 4096 bytes: 255 entries of 16 bytes packed fr
 For an expression with `AND` / `OR`, steps 2 and 3 are done for every equality on an indexed field to learn how many records each one matches (the count of a coincidence table is read without authenticating it, only to choose the plan); the most selective one of each `AND` group drives the lookup, the candidates of all the `OR` branches are united, and step 4 checks the **whole expression** on each candidate. A branch without an indexed equality, or too many candidates, scans the data body instead.
 
 ## License
-
 - **Code**: [GNU AGPL-3.0-only](LICENSE).
 - **Documentation** (this README): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). You may share and adapt it with attribution, under the same license.
 
 Copyright (C) 2026 Roberto C. Alemán F.
-
-## Contact
-If you would like to contact me, you can write to roberto@pon-db.com
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S2Y6296BZ2)
 
@@ -253,8 +249,4 @@ if you would like to make a suggestion, please post it in the issues section or 
 
 <p align="center">
   <b>Author : Roberto C. Alemán F., Zulia, Venezuela.</b><br/><img src="https://flagcdn.com/ve.svg" alt="Flag of Venezuela" width="32">
-</p>
-<p align="center">
-  <a href="https://pon-db.com" title="Official website of pon-db">Website</a><br/>
-  <b>License: GNU Affero General Public License (AGPL-3.0-only)</b>
 </p>
