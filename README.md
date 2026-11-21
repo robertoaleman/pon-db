@@ -147,7 +147,6 @@ Limits of V9:
 * Someone holding the file can still see how many records there are, the size of each record, how many index entries exist, and **which entries refer to several records** (that several records share a value in an indexed field, though not which value or which field).
 * The whole index is held in memory while ingesting, and query results are collected in memory.
 * On Windows the master key file gets the default ACLs of the directory.
-* V9 is an **alpha**: the format (now revision 4) is frozen when the first stable version is published. Files from earlier revisions are rejected with a clear message and must be re-created from the original JSON.
 
 ---
 
