@@ -46,7 +46,7 @@ Ingest a JSON dataset (newline-delimited objects, or an array of objects) and in
 
 ```bash
 ./target/release/pon-db-engine dataset.json --index=sku
-./target/release/pon-db-engine dataset.json --index=sku,city,address.zip --force
+./target/release/pon-db-engine dataset.json --index=sku,city,address --force
 ```
 
 Files are written in the **V9** format. Versions before 9 are no longer supported: a V8 file is rejected with a clear message and must be re-created from the original JSON.
