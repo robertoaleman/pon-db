@@ -5,7 +5,7 @@
 <p align="center">
   <br/>
   <b>License: GNU Affero General Public License (AGPL-3.0-only)</b><br/>
-  <b>Current version: 9.0.0-alpha.7 (file format V9, revision 4)</b><br/>
+  <b>Current version: 9.0.0 (file format V9, revision 4)</b><br/>
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S2Y6296BZ2)
 
